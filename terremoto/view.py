@@ -66,7 +66,9 @@ class FullDeck:
 
 class main():
     pygame.init()
-    ventana = pygame.display.set_mode((1000,1000))
+    fondo = pygame.image.load("../sprites/mesa1.jpeg")
+    rect = fondo.get_rect()
+    ventana = pygame.display.set_mode((rect.width,rect.height))
     pygame.display.set_caption("Prueba")
     deck = FullDeck(2)
     indice = 0
@@ -79,6 +81,7 @@ class main():
                     indice = (indice + 1) % len(deck.cards)
                 elif event.key == pygame.K_LEFT:
                     indice = (indice - 1) % len(deck.cards)
+        ventana.blit(fondo,(0,0))
         ventana.blit(deck.cards[indice].sprite,(0,0))
         pygame.display.update()
 
