@@ -1,0 +1,264 @@
+{
+    "frames":{
+        "a_spades":{
+            "frame": {"x":0,"y":0,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "2_spades":{
+            "frame": {"x":65,"y":0,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "3_spades":{
+            "frame": {"x":130,"y":0,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "4_spades":{
+            "frame": {"x":194,"y":0,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "5_spades":{
+            "frame": {"x":259,"y":0,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "6_spades":{
+            "frame": {"x":324,"y":0,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "7_spades":{
+            "frame": {"x":388,"y":0,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "8_spades":{
+            "frame": {"x":453,"y":0,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "9_spades":{
+            "frame": {"x":518,"y":0,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "10_spades":{
+            "frame": {"x":582,"y":0,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "j_spades":{
+            "frame": {"x":645,"y":0,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "q_spades":{
+            "frame": {"x":710,"y":0,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "k_spades":{
+            "frame": {"x":775,"y":0,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "a_clubs":{
+            "frame": {"x":0,"y":85,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "2_clubs":{
+            "frame": {"x":65,"y":85,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "3_clubs":{
+            "frame": {"x":130,"y":85,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "4_clubs":{
+            "frame": {"x":194,"y":85,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "5_clubs":{
+            "frame": {"x":259,"y":85,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "6_clubs":{
+            "frame": {"x":324,"y":85,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "7_clubs":{
+            "frame": {"x":388,"y":85,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "8_clubs":{
+            "frame": {"x":453,"y":85,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "9_clubs":{
+            "frame": {"x":518,"y":85,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "10_clubs":{
+            "frame": {"x":582,"y":85,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "j_clubs":{
+            "frame": {"x":645,"y":85,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "q_clubs":{
+            "frame": {"x":710,"y":85,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "k_clubs":{
+            "frame": {"x":775,"y":85,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "a_diamonds":{
+            "frame": {"x":0,"y":170,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "2_diamonds":{
+            "frame": {"x":65,"y":170,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "3_diamonds":{
+            "frame": {"x":130,"y":170,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "4_diamonds":{
+            "frame": {"x":194,"y":170,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "5_diamonds":{
+            "frame": {"x":259,"y":170,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "6_diamonds":{
+            "frame": {"x":324,"y":170,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "7_diamonds":{
+            "frame": {"x":388,"y":170,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "8_diamonds":{
+            "frame": {"x":453,"y":170,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "9_diamonds":{
+            "frame": {"x":518,"y":170,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "10_diamonds":{
+            "frame": {"x":582,"y":170,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "j_diamonds":{
+            "frame": {"x":645,"y":170,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "q_diamonds":{
+            "frame": {"x":710,"y":170,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "k_diamonds":{
+            "frame": {"x":775,"y":170,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "a_hearts":{
+            "frame": {"x":0,"y":255,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "2_hearts":{
+            "frame": {"x":65,"y":255,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "3_hearts":{
+            "frame": {"x":130,"y":255,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "4_hearts":{
+            "frame": {"x":194,"y":255,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "5_hearts":{
+            "frame": {"x":259,"y":255,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "6_hearts":{
+            "frame": {"x":324,"y":255,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "7_hearts":{
+            "frame": {"x":388,"y":255,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "8_hearts":{
+            "frame": {"x":453,"y":255,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "9_hearts":{
+            "frame": {"x":518,"y":255,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "10_hearts":{
+            "frame": {"x":582,"y":255,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "j_hearts":{
+            "frame": {"x":645,"y":255,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "q_hearts":{
+            "frame": {"x":710,"y":255,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        },
+        "k_hearts":{
+            "frame": {"x":775,"y":255,"w":65,"h":85},
+            "spriteSourceSize": {"x":0,"y":0,"w":65,"h":85},
+            "sourceSize": {"w":65,"h":85}
+        }
+    }
+}
