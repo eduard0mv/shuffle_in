@@ -68,11 +68,33 @@ class main():
     pygame.init()
     fondo = pygame.image.load("../sprites/mesa1.jpeg")
     rect = fondo.get_rect()
-    ventana = pygame.display.set_mode((rect.width,rect.height))
+    fondo = pygame.transform.scale(fondo,(rect.width*2,rect.height*2))
+    ventana = pygame.display.set_mode((rect.width*2,rect.height*2))
     pygame.display.set_caption("Prueba")
+    fuente = pygame.font.Font(None,30)
+    
     deck = FullDeck(2)
     indice = 0
+    cards = []
+    cards1 = []
+    cards2 = []
+    cards3 = []
+    
+    own_cards = pygame.Surface((715,85))
+    own_cards1 = pygame.Surface((715,85))
+    own_cards2 = pygame.Surface((715,85))
+    own_cards3 = pygame.Surface((715,85))
+    for i in range(11):
+        cards.append(deck.cards.pop(0))
+        cards1.append(deck.cards.pop(0))
+        cards2.append(deck.cards.pop(0))
+        cards3.append(deck.cards.pop(0))
+        own_cards.blit(cards[i].sprite,(65*i,0))
+        own_cards1.blit(cards1[i].sprite,(65*i,0))
+        own_cards2.blit(cards2[i].sprite,(65*i,0))
+        own_cards3.blit(cards3[i].sprite,(65*i,0))
     while True:
+        numdeck = fuente.render(str(len(deck.cards)),0,(0,0,0))
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 pygame.quit(); sys.exit()
@@ -81,8 +103,19 @@ class main():
                     indice = (indice + 1) % len(deck.cards)
                 elif event.key == pygame.K_LEFT:
                     indice = (indice - 1) % len(deck.cards)
+            elif event.type == pygame.MOUSEBUTTONUP:
+                if len(deck.cards) > 0:
+                    deck.cards.pop()
+        
         ventana.blit(fondo,(0,0))
-        ventana.blit(deck.cards[indice].sprite,(0,0))
+        for i in range(len(deck.cards)):
+            deck.cards[i].back.set_colorkey((255,255,255))
+            ventana.blit(deck.cards[i].back,(rect.width-32,rect.height-42))
+        ventana.blit(numdeck,(rect.width+38,rect.height-5))
+        ventana.blit(own_cards,(0,0))
+        ventana.blit(own_cards1,(0,86))
+        ventana.blit(own_cards2,(0,172))
+        ventana.blit(own_cards3,(0,258))
         pygame.display.update()
 
 if __name__ == "__main__":
